@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" onclick="location.href='#'" style="cursor: pointer;">Chathurya...</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#explore-my-anchor">Skills & Expertise</a></li>
+                <li><a href="#browse-recent-anchor">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo" onclick="location.href='#profile'" style="cursor: pointer;" >Chathurya Dissanayake</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()"> 
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about-me" onclick="toggleMenu()">About Me</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic2.jpg" alt="Chathurya Dissanayake Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Chathurya Dissanayake</h1>
+            <p class="section__text__p2">Business Analysis | Project Manager <br />Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/chathurya-dissanayake-abba25341/'"/> 
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/Chathurya15'"/>  
+            </div>  
+        </div>
+    </section>
+    <section id="about-me">
+  <p id="get-to-know-more-anchor"class="section__text__p1"><br/>Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <br/>
+  <div class="section-container">
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Experience</h3>
+          <p>Business Analysis | Project Management <br />Frontend Development </p>   
+        </div>
+
+        <div class="details-container">
+          <img
+            src="./assets/education2.png"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>BSc (Hons) Information Technology SLIIT<br /> GPA:  3.33 / 4.0</p>
+        </div>
+
+        <div class="details-container">
+          <img
+            src="./assets/certification2.png"
+            alt="Certification icon"
+            class="icon"
+          />
+          <h3>Certifications</h3>
+          <p>5+ Completed <br />Professional Certifications</p>
+        </div>
+      </div>
+      <br/>
+      <div class="text-container">
+        <p>
+          I am currently an undergraduate student at SLIIT, 
+          pursuing a BSc (Hons) in Information Technology with a specialization in IT, 
+          with a strong interest in Business Analysis and Project Management. 
+          My journey in technology is driven by a solid foundation in software development, 
+          a problem-solving mindset, and a curiosity for identifying opportunities to optimize processes and deliver measurable business value.
+        </p>
+        <br/>
+        <p>
+          In addition to my analytical and project-focused skills, 
+          I have hands-on experience in frontend web and mobile application development, 
+          working with technologies such as the MERN Stack, Java, Kotlin, and Android Studio. 
+          This technical background enables me to understand system architectures, 
+          collaborate effectively with development teams, and translate business requirements into practical, user-focused solutions.
+        </p>
+        <br/>
+        <p>
+          I bridge the gap between technology and business through strong analytical thinking and collaboration. 
+          I take a structured, hands-on approach to requirement analysis and developing innovative solutions, 
+          with a solid understanding of Agile methodologies, stakeholder engagement, and process improvement. 
+          I am eager to contribute to a dynamic team and deliver impactful business and IT solutions. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#explore-my-anchor'"
+  />
+</section>
+    <section id="experience">
+      <p id="explore-my-anchor" class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills & Expertise</h1>
+      <br/>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Business Anlysis</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Requirements Gathering</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Business Process Mapping</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Business Process Modelling</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ANOVA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem Solving</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Project Management</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Presentation Skills</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Time Management</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Team Leaderships</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jira PM + Track Tool</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scrum & Kanban Methodologies</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Agile & Waterfall Methodologies</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+      <br/>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Mobile Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>XML UI</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React Native</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Studio</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#browse-recent-anchor'"
+      />
+      </section>
+      <br/>
+      <section id="projects"> 
+        <br/>
+        <br/>
+        <br/>
+  <p id="browse-recent-anchor" class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <br/>
+  <br/>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/campease.png" alt="EcoConnect App" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">CAMPEASE </h2>
+        <p class="project-description">
+        A Camping Gear Rental Management web platform, for renting camping gear tailored to meet specific client requirements, users’ dream vacation experiences, using React and Vite. Partnered with
+        team members to design engaging user interfaces, implement responsive layouts, 
+        and deliver an immersive user experience aligned with modern design standards and user needs.
+        </p>
+        <div class="project-tags">
+          <span>MERN</span>
+          <span>JavaScript</span>
+          <span>React Vite</span>
+          <span>HTML & Tailwind/CSS</span>
+          <span>Figma</span>
+          <span>Agile Prpject Management Methodology</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chathurya15/Camping-Gear-Rental'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/washwise2.png" alt="Medical System" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">WashWise</h2>
+        <p class="project-description">
+        WashWise is an online Laundry Management System developed using Java and MySQL, 
+        designed to streamline order processing, service tracking, and customer management. 
+        The system improves operational efficiency by automating workflows and maintaining accurate records. 
+        Through this project, I gained hands-on experience in backend development, database design and integration, and user interface development.
+        </p>
+        <div class="project-tags">
+          <span>Java</span>
+          <span>MySQL</span>
+          <span> HTML & CSS </span>
+          <span>Agile Project Management Methodology</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chathurya15/WashWise'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/admaven2.png" alt="Movie App" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">AdMaven</h2>
+        <p class="project-description">
+          AdMavenis an Online Advertising Agency Platform. Collaboratively developed, 
+          a simulated online advertising agency platform designed to connect content creators, advertisers, and brand channels. 
+          The system allows users to efficiently create, manage, and publish advertisements through a network of available brand partnerships, 
+          streamlining the advertising workflow.
+        <div class="project-tags">
+          <span>MySQL</span>
+          <span>HTML5 & CSS3</span>
+          <span>PHP</span>
+          <span>Wireframing</span>
+          <span>Waterfall Methodology</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chathurya15/OOP-AdMaven'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+      <section id="projects">
+  <div class="experience-details-container">
+    <div class="about-containers">
+      
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/nuwaraeliya1.png" alt="Medical System" class="project-img" />
+        </div> 
+        <h2 class="experience-sub-title project-title">Nuwara Eliya Municipal Council Website</h2> 
+        <p class="project-description">
+          The Nuwara Eliya Municipal Council Website Redesign is a user-centered UX/UI project aimed at improving accessibility, 
+          usability, and visual appeal for residents and tourists. It followed a design-first approach from usability research to high-fidelity prototyping in Figma, 
+          focusing on clear navigation, information access, and mobile responsiveness.
+          <br/>
+          <br/>
+          UX issues, including CRUD interactions, were identified through evaluations and questionnaires, with MockFlow wireframes and Figma prototypes 
+          validated through usability testing to deliver an effective user experience.
+        </p>
+        <div class="project-tags">
+          <span>Figma</span>
+          <span>UI/UX</span>
+          <span>Prototyping</span>
+          <span>Wireframing</span>
+          <span>HCI Principales</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://www.figma.com/design/pOFpskZgUpvBtecC2mEyjM/HCI-Group?node-id=0-1&p=f&t=taonJvFtCaJbG0pN-0'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/proto/pOFpskZgUpvBtecC2mEyjM/HCI-Group?node-id=427-1998&t=C50q5IUUQGi88FkI-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=321%3A979'"
+              >
+                Live Demo
+              </button>
+            </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/montracker.png" alt="EcoConnect App" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">MonTracker</h2>
+        <p class="project-description">
+        MonTracker is a personal finance tracker app developed individually using Android Studio with Kotlin, 
+        focusing on simplicity and usability with XML-based UI design. Implemented Shared Preferences for data storage and Internal Storage for backups.
+        <br/>
+        <br/>
+        Integrated Android Notification Manager for push notifications and utilized SQLite with 
+        Room (ORM) for efficient local data management. Gained hands on experience in applying core Android development principles to 
+        build a functional and user-friendly application. 
+        </p>
+        <div class="project-tags">
+          <span>Android Studio</span>
+          <span>Kotlin</span>
+          <span>XML UI</span>
+          <span>ORM</span>
+          <span>Figma</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chathurya15/Tracker_app'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/fooditrail2.png" alt="FoodiTrail" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">FoodiTrail</h2>
+        <p class="project-description">
+          FoodiTrail is an Android-based food recipe and meal planning app developed using Android Studio and Kotlin. 
+          The UI was designed in Figma and implemented using XML layouts, focusing on usability and personalizationand an intuitive user experience. 
+          
+          The app supports ingredient based recipe search, grocery list creation, and community recipe sharing, 
+          with Room (SQLite) for local data storage and Shared Preferences for user settings.Additionally, it incorporates offline accessibility.
+        </p>
+        <div class="project-tags">
+          <span>Android Studio</span>
+          <span>XML UI</span>
+          <span>Kotlin</span>
+          <span>Figma</span>
+          <span>UI/UX</span>
+          <span>Prototyping</span>
+          <span>Wireframing</span>
+        </div>
+        <br>
+        <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+      </div>
+    </div>
+  </div>
+  <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+</section>
+    <section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+  <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+  <h3>Email</h3>
+  <p><a href="mailto:c2dissa@gmail.com">c2dissa@gmail.com</a></p>
+</div>
+
+    <div class="contact-info-container">
+      <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+      <h3>LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/chathurya-dissanayake-abba25341/">linkedin.com/in/chathurya</a></p>
+    </div>
+
+    <div class="contact-info-container">
+      <img src="./assets/github.png" alt="GitHub icon" class="icon contact-icon" />
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/Chathurya15">github.com/Chathurya15</a></p>
+    </div>
+  </div>
+</section>
+    <footer class="footer">
+        <h2 class="footer-title">Chathurya<span>...</span></h2>
+        <p class="footer-tagline">From data to strategy, one insight at a time.</p>
+
+        <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#explore-my-anchor">Skills & Expertise</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+  <div class="social-links">
+    <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/chathurya-dissanayake-abba25341/'"/> 
+    <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/Chathurya15'"/> 
+  </div>
+  <hr />
+  <p>Copyright &#169; 2023 Chathurya Dissanayake. All Rights Reserved.</p>
+  <a href="#" class="back-to-top" id="backToTop">
+  <img src="./assets/uparrow.png" alt="Back to top">
+</a>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
